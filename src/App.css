@@ -1,0 +1,96 @@
+/* App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+}
+
+.responsive-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contacts-table {
+  list-style: none;
+  padding: 0;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.table-header-cell {
+  flex: 1;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.separator {
+  height: 1px;
+  background-color: #ccc;
+  flex: 0.1;
+  margin: 0 10px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.contact-item:hover {
+  background-color: #f0f0f0;
+}
+
+.contact-item .name-column {
+  flex: 1;
+  font-weight: bold;
+}
+
+.favorite-icon {
+  color: #f00;
+  cursor: pointer;
+}

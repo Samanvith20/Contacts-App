@@ -1,0 +1,53 @@
+/* index.css */
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-cell {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .name-column {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .separator {
+    height: 20px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+  
+  .mobile-no-column {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-no-value {
+    margin-right: 10px;
+  }
+  
+  .favorite-icon-container {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .favorite-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
